@@ -5,6 +5,7 @@ import UserData from "./useState/UserData";
 import SingleOnChange from "./useState/SingleOnChange";
 import Basic from "./useEffect/Basic";
 import AutoCounter from "./useEffect/AutoCounter";
+import JsonData from "./useEffect/JsonData";
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
       <div>
         <h1>AutoCounter</h1>
         <AutoCounter />
+      </div>
+      <div>
+        <h1>AutoCounter</h1>
+        <JsonData />
       </div>
     </div>
   );
